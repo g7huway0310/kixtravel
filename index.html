@@ -451,7 +451,7 @@
                 <!-- 固定開銷 -->
                 <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
                     <div class="bg-slate-50 px-6 py-4 border-b border-slate-200">
-                        <h3 class="text-lg font-bold text-slate-800">✅ 已預付 / 固定開銷明細</h3>
+                        <h3 class="text-lg font-bold text-slate-800">✅ 已預付 / 固定開銷明細 (機加酒總計)</h3>
                     </div>
                     <div class="overflow-x-auto">
                         <table class="min-w-full divide-y divide-slate-200 text-sm">
@@ -476,13 +476,15 @@
                                     <td class="px-6 py-4 font-bold text-indigo-700 bg-indigo-50/50">12,599</td>
                                     <td class="px-6 py-4 text-slate-500 text-xs">1間客房，單人價格為總價平分</td>
                                 </tr>
-                                <tr>
-                                    <td class="px-6 py-4 font-medium text-slate-700">🎵 Billboard Live 門票</td>
-                                    <td class="px-6 py-4 font-bold text-blue-700 bg-blue-50/50">3,000 (估計)</td>
-                                    <td class="px-6 py-4 font-bold text-indigo-700 bg-indigo-50/50">6,000 (估計)</td>
-                                    <td class="px-6 py-4 text-slate-500 text-xs">已另行結帳，此為預估值</td>
-                                </tr>
                             </tbody>
+                            <tfoot class="bg-slate-50 border-t-2 border-slate-200">
+                                <tr>
+                                    <td class="px-6 py-3 font-bold text-slate-800 text-right">固定開銷小計</td>
+                                    <td class="px-6 py-3 font-bold text-lg text-blue-700 bg-blue-50/50">NT$ 13,936</td>
+                                    <td class="px-6 py-3 font-bold text-lg text-indigo-700 bg-indigo-50/50">NT$ 27,871</td>
+                                    <td class="px-6 py-3"></td>
+                                </tr>
+                            </tfoot>
                         </table>
                     </div>
                 </div>
@@ -522,16 +524,25 @@
                                     <td class="px-6 py-4 text-slate-500 text-xs">大阪城天守閣、清水寺、月桂冠參觀等</td>
                                 </tr>
                             </tbody>
+                             <tfoot class="bg-slate-50 border-t-2 border-slate-200">
+                                <tr>
+                                    <td class="px-6 py-3 font-bold text-slate-800 text-right">當地預估小計</td>
+                                    <td class="px-6 py-3 font-bold text-lg text-orange-700 bg-orange-50/50">~ NT$ 7,500</td>
+                                    <td class="px-6 py-3 font-bold text-lg text-rose-700 bg-rose-50/50">~ NT$ 15,000</td>
+                                    <td class="px-6 py-3"></td>
+                                </tr>
+                            </tfoot>
                         </table>
                     </div>
                 </div>
 
                 <!-- 總結 -->
-                <div class="flex justify-end pt-4 border-t-2 border-slate-200">
-                    <div class="text-right">
+                <div class="flex flex-col items-end pt-4 border-t-4 border-double border-slate-200">
+                    <div class="text-right mb-2">
                         <p class="text-sm font-bold text-slate-500 mb-1">不含個人購物的單人基本總花費約為</p>
-                        <p class="text-3xl font-extrabold text-slate-800">NT$ 24,436 <span class="text-sm font-normal text-slate-500">/人</span></p>
+                        <p class="text-3xl font-extrabold text-slate-800">NT$ 21,436 <span class="text-sm font-normal text-slate-500">/人</span></p>
                     </div>
+                    <p class="text-xs text-slate-400">※ 此總額不含 10/31 鈴木真海子演唱會門票及個人購物花費。</p>
                 </div>
 
             </div>
